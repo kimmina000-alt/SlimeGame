@@ -1,0 +1,378 @@
+{
+  "SchemaVersion": 1,
+  "World": {
+    "MaxPlayers": 15,
+    "PlotCount": 15,
+    "PlotSizeStuds": [
+      70,
+      70
+    ],
+    "PlotRingRadius": 250,
+    "DungeonPvP": false,
+    "OfflineIncome": false
+  },
+  "Slime": {
+    "PerPlot": 1,
+    "BaseCount": 1,
+    "MaxEquippedToppings": 3,
+    "DefaultBaseId": "base_clear",
+    "DefaultSize": "M",
+    "DefaultPublic": false
+  },
+  "Worker": {
+    "PerPlot": 1,
+    "DefaultWalkSpeed": 8,
+    "IncomeStepStuds": 6,
+    "PathWaypointCount": 8,
+    "OfflineIncome": false
+  },
+  "Income": {
+    "BaseGoldPerStep": 0.4,
+    "MaxGoldPerStepBeforeMultipliers": 8,
+    "TierGoldPerStep": {
+      "Common": 0.25,
+      "Uncommon": 0.35,
+      "Rare": 0.5,
+      "Epic": 0.75,
+      "Legendary": 1.1,
+      "Mythic": 1.5
+    },
+    "SizeIncomeMultiplier": {
+      "S": 1,
+      "M": 1.25,
+      "L": 1.5
+    },
+    "RebirthIncomeMultiplier": 1
+  },
+  "Rarity": {
+    "Order": [
+      "Common",
+      "Uncommon",
+      "Rare",
+      "Epic",
+      "Legendary",
+      "Mythic"
+    ],
+    "PriceMultiplier": {
+      "Common": 1,
+      "Uncommon": 2,
+      "Rare": 4,
+      "Epic": 8,
+      "Legendary": 16,
+      "Mythic": 32
+    }
+  },
+  "Size": {
+    "Order": [
+      "S",
+      "M",
+      "L"
+    ],
+    "WeightMultiplier": {
+      "S": 0.7,
+      "M": 1,
+      "L": 1.5
+    },
+    "PriceMultiplier": {
+      "S": 1,
+      "M": 1.6,
+      "L": 2.5
+    },
+    "IncomeMultiplier": {
+      "S": 1,
+      "M": 1.25,
+      "L": 1.5
+    },
+    "ModelScale": {
+      "S": 0.7,
+      "M": 1,
+      "L": 1.5
+    }
+  },
+  "Topping": {
+    "BaseExchangePrice": 20,
+    "BonusDropChance": 0.02,
+    "DefaultDropCount": 1,
+    "MaxEquipped": 3,
+    "MaxStack": 9999
+  },
+  "BagTiers": [
+    {
+      "Tier": 1,
+      "Name": "기본 가방",
+      "MaxWeightKg": 3,
+      "UpgradeCost": 0
+    },
+    {
+      "Tier": 2,
+      "Name": "작은 가방",
+      "MaxWeightKg": 5,
+      "UpgradeCost": 500
+    },
+    {
+      "Tier": 3,
+      "Name": "일반 가방",
+      "MaxWeightKg": 10,
+      "UpgradeCost": 1500
+    },
+    {
+      "Tier": 4,
+      "Name": "큰 가방",
+      "MaxWeightKg": 20,
+      "UpgradeCost": 4000
+    },
+    {
+      "Tier": 5,
+      "Name": "특대 가방",
+      "MaxWeightKg": 35,
+      "UpgradeCost": 9000
+    },
+    {
+      "Tier": 6,
+      "Name": "탐험가 가방",
+      "MaxWeightKg": 55,
+      "UpgradeCost": 20000
+    },
+    {
+      "Tier": 7,
+      "Name": "마스터 가방",
+      "MaxWeightKg": 80,
+      "UpgradeCost": 45000
+    },
+    {
+      "Tier": 8,
+      "Name": "전문가 가방",
+      "MaxWeightKg": 120,
+      "UpgradeCost": 90000
+    },
+    {
+      "Tier": 9,
+      "Name": "엘리트 가방",
+      "MaxWeightKg": 170,
+      "UpgradeCost": 170000
+    },
+    {
+      "Tier": 10,
+      "Name": "전설의 가방",
+      "MaxWeightKg": 230,
+      "UpgradeCost": 300000
+    },
+    {
+      "Tier": 11,
+      "Name": "마스터 탐험가 가방",
+      "MaxWeightKg": 300,
+      "UpgradeCost": 500000
+    }
+  ],
+  "MiningTools": [
+    {
+      "Index": 1,
+      "Id": "Hand",
+      "Name": "맨손",
+      "Times": [
+        6,
+        5.7,
+        5.4,
+        5.1,
+        4.8
+      ],
+      "Costs": [
+        0,
+        100,
+        200,
+        350,
+        500
+      ]
+    },
+    {
+      "Index": 2,
+      "Id": "Gloves",
+      "Name": "작업용 장갑",
+      "Times": [
+        4.6,
+        4.4,
+        4.2,
+        4,
+        3.8
+      ],
+      "Costs": [
+        750,
+        1000,
+        1250,
+        1500,
+        2000
+      ]
+    },
+    {
+      "Index": 3,
+      "Id": "Spoon",
+      "Name": "숟가락",
+      "Times": [
+        3.6,
+        3.45,
+        3.3,
+        3.15,
+        3
+      ],
+      "Costs": [
+        2500,
+        3000,
+        3500,
+        4000,
+        5000
+      ]
+    },
+    {
+      "Index": 4,
+      "Id": "Trowel",
+      "Name": "모종삽",
+      "Times": [
+        2.85,
+        2.7,
+        2.55,
+        2.4,
+        2.25
+      ],
+      "Costs": [
+        6500,
+        8000,
+        9500,
+        11000,
+        13000
+      ]
+    },
+    {
+      "Index": 5,
+      "Id": "Shovel",
+      "Name": "큰삽",
+      "Times": [
+        2.15,
+        2.05,
+        1.95,
+        1.85,
+        1.75
+      ],
+      "Costs": [
+        16000,
+        19000,
+        22000,
+        26000,
+        30000
+      ]
+    },
+    {
+      "Index": 6,
+      "Id": "Pickaxe",
+      "Name": "곡괭이",
+      "Times": [
+        1.65,
+        1.55,
+        1.45,
+        1.35,
+        1.25
+      ],
+      "Costs": [
+        36000,
+        42000,
+        48000,
+        55000,
+        62000
+      ]
+    }
+  ],
+  "Dungeons": [
+    {
+      "Id": "Beginner",
+      "Name": "초급 동굴",
+      "ActiveMounds": 18,
+      "RespawnSeconds": 20,
+      "RarityChance": {
+        "Common": 75,
+        "Uncommon": 20,
+        "Rare": 4,
+        "Epic": 0.8,
+        "Legendary": 0.18,
+        "Mythic": 0.02
+      }
+    },
+    {
+      "Id": "Intermediate",
+      "Name": "중급 동굴",
+      "ActiveMounds": 15,
+      "RespawnSeconds": 25,
+      "RarityChance": {
+        "Common": 25,
+        "Uncommon": 45,
+        "Rare": 22,
+        "Epic": 6,
+        "Legendary": 1.7,
+        "Mythic": 0.3
+      }
+    },
+    {
+      "Id": "Deep",
+      "Name": "심층 동굴",
+      "ActiveMounds": 12,
+      "RespawnSeconds": 35,
+      "RarityChance": {
+        "Common": 5,
+        "Uncommon": 20,
+        "Rare": 40,
+        "Epic": 23,
+        "Legendary": 10,
+        "Mythic": 2
+      }
+    }
+  ],
+  "BasePump": {
+    "PerDungeon": 1,
+    "LitersPerUse": 5,
+    "CooldownSecondsPerPlayer": 20,
+    "MaxLitersPerBasePerPlayer": 10
+  },
+  "Cleaning": {
+    "SessionTimeoutSeconds": 30,
+    "MinimumDurationSeconds": 3,
+    "MinimumValidStrokes": 5,
+    "MaxStrokeEventsPerSecond": 12,
+    "MaxDistanceFromStation": 12
+  },
+  "Mining": {
+    "MaxConcurrentSessionsPerPlayer": 1,
+    "CancelDistanceStuds": 8,
+    "MoundMinSpacingStuds": 12,
+    "MoundReservedRadiusStuds": 6
+  },
+  "Shelf": {
+    "ToppingSlots": 10,
+    "MaterialTabs": [
+      "Base",
+      "Dye",
+      "Fragrance",
+      "SurfaceEffect",
+      "Topping"
+    ]
+  },
+  "Rebirth": {
+    "InitialGoldThreshold": 20000,
+    "GoldThresholdMultiplier": 1.75,
+    "AuraRewardPerRebirth": 1,
+    "MaxGachaTier": 3,
+    "RequiredToppingId": "topping_foam_bead",
+    "RequiredToppingIsTemporaryMapping": true
+  },
+  "Audio": {
+    "AudioModeDefault": 0,
+    "PlotAudioBoundary": true,
+    "RollOffMaxDistance": 15
+  },
+  "Network": {
+    "AutosaveSeconds": 60,
+    "RemoteRateLimitPerSecond": 12
+  },
+  "OpenAssets": {
+    "AudioAssetIdsRequired": true,
+    "ModelAssetIdsRequired": true,
+    "DoNotInventAssetIds": true
+  }
+}
