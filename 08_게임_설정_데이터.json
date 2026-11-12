@@ -374,5 +374,123 @@
     "AudioAssetIdsRequired": true,
     "ModelAssetIdsRequired": true,
     "DoNotInventAssetIds": true
+  },
+  "Gacha": {
+    "FreeTokenIntervalSeconds": 1200,
+    "FreeTokenStorageCap": 1,
+    "CabinetCapacity": 100,
+    "GradeChancePercent": {
+      "Common": 72,
+      "Uncommon": 18,
+      "Rare": 7,
+      "Epic": 2.3,
+      "Legendary": 0.6,
+      "Mythic": 0.1
+    },
+    "SizeChancePercent": {
+      "S": 72,
+      "M": 23,
+      "L": 5
+    },
+    "TierUnlockByRebirth": {
+      "1": 1,
+      "2": 2,
+      "3": 3
+    },
+    "TierPoolIds": {
+      "1": null,
+      "2": null,
+      "3": null
+    },
+    "RequirePublishedOddsBeforeRobuxPurchase": true,
+    "CapsuleOpenRequired": true,
+    "Note": "Tier pool item membership is not defined in source documents. Keep machine disabled until each pool is explicitly authored."
+  },
+  "Monetization": {
+    "RobuxToGoldReference": 500,
+    "GoldProducts": [
+      {
+        "ProductKey": "Gold_19",
+        "Robux": 19,
+        "Gold": 9500,
+        "DeveloperProductId": null
+      },
+      {
+        "ProductKey": "Gold_59",
+        "Robux": 59,
+        "Gold": 32450,
+        "DeveloperProductId": null
+      },
+      {
+        "ProductKey": "Gold_99",
+        "Robux": 99,
+        "Gold": 59400,
+        "DeveloperProductId": null
+      },
+      {
+        "ProductKey": "Gold_199",
+        "Robux": 199,
+        "Gold": 129350,
+        "DeveloperProductId": null
+      }
+    ],
+    "WorkerSpeedPasses": [
+      {
+        "ProductKey": "WorkerSpeed_25",
+        "Robux": 49,
+        "SpeedMultiplier": 1.25,
+        "DeveloperProductId": null
+      },
+      {
+        "ProductKey": "WorkerSpeed_2x",
+        "Robux": 149,
+        "SpeedMultiplier": 2,
+        "DeveloperProductId": null
+      }
+    ],
+    "TimedIncomeBoost": {
+      "ProductKey": "IncomeBoost_10m",
+      "Robux": 49,
+      "Multiplier": 2,
+      "DurationSeconds": 600,
+      "MaxQueuedWhileActive": 1,
+      "DeveloperProductId": null
+    },
+    "StarterPack": {
+      "ProductKey": "StarterPack",
+      "Robux": 49,
+      "Gold": 15000,
+      "WorkerSpeedMultiplier": 1.25,
+      "TimedIncomeBoostCount": 1,
+      "AccountLimit": 1,
+      "DeveloperProductId": null
+    },
+    "Donation": {
+      "MinimumRobux": 10,
+      "MaximumRobux": null,
+      "AnnouncementDurationSeconds": 60,
+      "DeveloperProductId": null
+    },
+    "ProductIdsConfigured": false,
+    "DisablePurchaseUntilProductIdsConfigured": true
+  },
+  "Leaderboard": {
+    "MaxEntries": 50,
+    "Tabs": [
+      "LifetimeGold",
+      "TotalPlaySeconds",
+      "TotalDonatedRobux"
+    ],
+    "UpdateMode": "near-real-time",
+    "PlaytimeIncludesIdle": true,
+    "TieBreak": "earlier_timestamp_reaching_same_score",
+    "DonationAnnouncementSeconds": 60
+  },
+  "Season": {
+    "Enabled": false,
+    "ActiveEventTag": null,
+    "StartUnix": null,
+    "EndUnix": null,
+    "KeepOwnedItemsAfterEvent": true
   }
 }
