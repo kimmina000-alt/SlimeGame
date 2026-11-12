@@ -1,61 +1,14 @@
 {
   "SchemaVersion": 1,
-  "Description": "Machine-readable counterpart of 02_아이템_카탈로그.md. All AssetId/ModelKey/TextureKey/SoundKey fields are null until actual assets are supplied. Never invent Roblox asset IDs.",
+  "Description": "Machine-readable item-specific definitions. Global rarity/size multipliers and formulas are defined only in 08_게임_설정_데이터.json. AssetId/ModelKey/TextureKey/SoundKey fields are null until actual assets are supplied; never invent asset IDs.",
   "Rules": {
-    "RarityOrder": [
-      "Common",
-      "Uncommon",
-      "Rare",
-      "Epic",
-      "Legendary",
-      "Mythic"
-    ],
-    "SizeOrder": [
-      "S",
-      "M",
-      "L"
-    ],
-    "Size": {
-      "S": {
-        "WeightMultiplier": 0.7,
-        "PriceMultiplier": 1,
-        "IncomeMultiplier": 1,
-        "ModelScale": 0.7
-      },
-      "M": {
-        "WeightMultiplier": 1,
-        "PriceMultiplier": 1.6,
-        "IncomeMultiplier": 1.25,
-        "ModelScale": 1
-      },
-      "L": {
-        "WeightMultiplier": 1.5,
-        "PriceMultiplier": 2.5,
-        "IncomeMultiplier": 1.5,
-        "ModelScale": 1.5
-      }
-    },
-    "RarityPriceMultiplier": {
-      "Common": 1,
-      "Uncommon": 2,
-      "Rare": 4,
-      "Epic": 8,
-      "Legendary": 16,
-      "Mythic": 32
-    },
-    "RarityGoldPerStep": {
-      "Common": 0.25,
-      "Uncommon": 0.35,
-      "Rare": 0.5,
-      "Epic": 0.75,
-      "Legendary": 1.1,
-      "Mythic": 1.5
-    },
-    "BaseExchangePriceGold": 20,
     "MaxEquippedToppings": 3,
-    "BaseGoldPerStep": 0.4,
-    "MaxGoldPerStepBeforeMultipliers": 8,
-    "DirtyBagOnlyCategory": "Topping"
+    "DirtyBagAppliesToCategory": "Topping",
+    "BaseModelSizeStuds": [
+      0.65,
+      0.85,
+      0.65
+    ]
   },
   "Items": [
     {
@@ -69,26 +22,6 @@
         0.3,
         0.3
       ],
-      "Sizes": {
-        "S": {
-          "WeightKg": 0.056,
-          "ExchangeValueGold": 20,
-          "GoldPerStep": 0.25,
-          "ModelScale": 0.7
-        },
-        "M": {
-          "WeightKg": 0.08,
-          "ExchangeValueGold": 32,
-          "GoldPerStep": 0.3125,
-          "ModelScale": 1
-        },
-        "L": {
-          "WeightKg": 0.12,
-          "ExchangeValueGold": 50,
-          "GoldPerStep": 0.375,
-          "ModelScale": 1.5
-        }
-      },
       "IsBagWeightApplicable": true,
       "DungeonDrop": true,
       "ModelKey": null,
@@ -107,26 +40,6 @@
         0.18,
         0.18
       ],
-      "Sizes": {
-        "S": {
-          "WeightKg": 0.042,
-          "ExchangeValueGold": 40,
-          "GoldPerStep": 0.35,
-          "ModelScale": 0.7
-        },
-        "M": {
-          "WeightKg": 0.06,
-          "ExchangeValueGold": 64,
-          "GoldPerStep": 0.4375,
-          "ModelScale": 1
-        },
-        "L": {
-          "WeightKg": 0.09,
-          "ExchangeValueGold": 100,
-          "GoldPerStep": 0.525,
-          "ModelScale": 1.5
-        }
-      },
       "IsBagWeightApplicable": true,
       "DungeonDrop": true,
       "ModelKey": null,
@@ -145,26 +58,6 @@
         0.25,
         0.35
       ],
-      "Sizes": {
-        "S": {
-          "WeightKg": 0.07,
-          "ExchangeValueGold": 80,
-          "GoldPerStep": 0.5,
-          "ModelScale": 0.7
-        },
-        "M": {
-          "WeightKg": 0.1,
-          "ExchangeValueGold": 128,
-          "GoldPerStep": 0.625,
-          "ModelScale": 1
-        },
-        "L": {
-          "WeightKg": 0.15,
-          "ExchangeValueGold": 200,
-          "GoldPerStep": 0.75,
-          "ModelScale": 1.5
-        }
-      },
       "IsBagWeightApplicable": true,
       "DungeonDrop": true,
       "ModelKey": null,
@@ -183,26 +76,6 @@
         0.4,
         0.4
       ],
-      "Sizes": {
-        "S": {
-          "WeightKg": 0.098,
-          "ExchangeValueGold": 40,
-          "GoldPerStep": 0.35,
-          "ModelScale": 0.7
-        },
-        "M": {
-          "WeightKg": 0.14,
-          "ExchangeValueGold": 64,
-          "GoldPerStep": 0.4375,
-          "ModelScale": 1
-        },
-        "L": {
-          "WeightKg": 0.21,
-          "ExchangeValueGold": 100,
-          "GoldPerStep": 0.525,
-          "ModelScale": 1.5
-        }
-      },
       "IsBagWeightApplicable": true,
       "DungeonDrop": true,
       "ModelKey": null,
@@ -221,26 +94,6 @@
         0.32,
         0.32
       ],
-      "Sizes": {
-        "S": {
-          "WeightKg": 0.084,
-          "ExchangeValueGold": 80,
-          "GoldPerStep": 0.5,
-          "ModelScale": 0.7
-        },
-        "M": {
-          "WeightKg": 0.12,
-          "ExchangeValueGold": 128,
-          "GoldPerStep": 0.625,
-          "ModelScale": 1
-        },
-        "L": {
-          "WeightKg": 0.18,
-          "ExchangeValueGold": 200,
-          "GoldPerStep": 0.75,
-          "ModelScale": 1.5
-        }
-      },
       "IsBagWeightApplicable": true,
       "DungeonDrop": true,
       "ModelKey": null,
@@ -259,26 +112,6 @@
         0.18,
         0.25
       ],
-      "Sizes": {
-        "S": {
-          "WeightKg": 0.063,
-          "ExchangeValueGold": 20,
-          "GoldPerStep": 0.25,
-          "ModelScale": 0.7
-        },
-        "M": {
-          "WeightKg": 0.09,
-          "ExchangeValueGold": 32,
-          "GoldPerStep": 0.3125,
-          "ModelScale": 1
-        },
-        "L": {
-          "WeightKg": 0.135,
-          "ExchangeValueGold": 50,
-          "GoldPerStep": 0.375,
-          "ModelScale": 1.5
-        }
-      },
       "IsBagWeightApplicable": true,
       "DungeonDrop": true,
       "ModelKey": null,
@@ -297,26 +130,6 @@
         0.35,
         0.45
       ],
-      "Sizes": {
-        "S": {
-          "WeightKg": 0.14,
-          "ExchangeValueGold": 160,
-          "GoldPerStep": 0.75,
-          "ModelScale": 0.7
-        },
-        "M": {
-          "WeightKg": 0.2,
-          "ExchangeValueGold": 256,
-          "GoldPerStep": 0.9375,
-          "ModelScale": 1
-        },
-        "L": {
-          "WeightKg": 0.3,
-          "ExchangeValueGold": 400,
-          "GoldPerStep": 1.125,
-          "ModelScale": 1.5
-        }
-      },
       "IsBagWeightApplicable": true,
       "DungeonDrop": true,
       "ModelKey": null,
@@ -335,26 +148,6 @@
         0.35,
         0.35
       ],
-      "Sizes": {
-        "S": {
-          "WeightKg": 0.077,
-          "ExchangeValueGold": 640,
-          "GoldPerStep": 1.5,
-          "ModelScale": 0.7
-        },
-        "M": {
-          "WeightKg": 0.11,
-          "ExchangeValueGold": 1024,
-          "GoldPerStep": 1.875,
-          "ModelScale": 1
-        },
-        "L": {
-          "WeightKg": 0.165,
-          "ExchangeValueGold": 1600,
-          "GoldPerStep": 2.25,
-          "ModelScale": 1.5
-        }
-      },
       "IsBagWeightApplicable": true,
       "DungeonDrop": true,
       "ModelKey": null,
@@ -373,26 +166,6 @@
         0.15,
         0.4
       ],
-      "Sizes": {
-        "S": {
-          "WeightKg": 0.035,
-          "ExchangeValueGold": 20,
-          "GoldPerStep": 0.25,
-          "ModelScale": 0.7
-        },
-        "M": {
-          "WeightKg": 0.05,
-          "ExchangeValueGold": 32,
-          "GoldPerStep": 0.3125,
-          "ModelScale": 1
-        },
-        "L": {
-          "WeightKg": 0.075,
-          "ExchangeValueGold": 50,
-          "GoldPerStep": 0.375,
-          "ModelScale": 1.5
-        }
-      },
       "IsBagWeightApplicable": true,
       "DungeonDrop": true,
       "ModelKey": null,
@@ -411,26 +184,6 @@
         0.12,
         0.45
       ],
-      "Sizes": {
-        "S": {
-          "WeightKg": 0.035,
-          "ExchangeValueGold": 20,
-          "GoldPerStep": 0.25,
-          "ModelScale": 0.7
-        },
-        "M": {
-          "WeightKg": 0.05,
-          "ExchangeValueGold": 32,
-          "GoldPerStep": 0.3125,
-          "ModelScale": 1
-        },
-        "L": {
-          "WeightKg": 0.075,
-          "ExchangeValueGold": 50,
-          "GoldPerStep": 0.375,
-          "ModelScale": 1.5
-        }
-      },
       "IsBagWeightApplicable": true,
       "DungeonDrop": true,
       "ModelKey": null,
@@ -449,26 +202,6 @@
         0.18,
         0.35
       ],
-      "Sizes": {
-        "S": {
-          "WeightKg": 0.056,
-          "ExchangeValueGold": 40,
-          "GoldPerStep": 0.35,
-          "ModelScale": 0.7
-        },
-        "M": {
-          "WeightKg": 0.08,
-          "ExchangeValueGold": 64,
-          "GoldPerStep": 0.4375,
-          "ModelScale": 1
-        },
-        "L": {
-          "WeightKg": 0.12,
-          "ExchangeValueGold": 100,
-          "GoldPerStep": 0.525,
-          "ModelScale": 1.5
-        }
-      },
       "IsBagWeightApplicable": true,
       "DungeonDrop": true,
       "ModelKey": null,
@@ -487,26 +220,6 @@
         0.12,
         0.55
       ],
-      "Sizes": {
-        "S": {
-          "WeightKg": 0.028,
-          "ExchangeValueGold": 20,
-          "GoldPerStep": 0.25,
-          "ModelScale": 0.7
-        },
-        "M": {
-          "WeightKg": 0.04,
-          "ExchangeValueGold": 32,
-          "GoldPerStep": 0.3125,
-          "ModelScale": 1
-        },
-        "L": {
-          "WeightKg": 0.06,
-          "ExchangeValueGold": 50,
-          "GoldPerStep": 0.375,
-          "ModelScale": 1.5
-        }
-      },
       "IsBagWeightApplicable": true,
       "DungeonDrop": true,
       "ModelKey": null,
@@ -525,26 +238,6 @@
         0.25,
         0.45
       ],
-      "Sizes": {
-        "S": {
-          "WeightKg": 0.042,
-          "ExchangeValueGold": 80,
-          "GoldPerStep": 0.5,
-          "ModelScale": 0.7
-        },
-        "M": {
-          "WeightKg": 0.06,
-          "ExchangeValueGold": 128,
-          "GoldPerStep": 0.625,
-          "ModelScale": 1
-        },
-        "L": {
-          "WeightKg": 0.09,
-          "ExchangeValueGold": 200,
-          "GoldPerStep": 0.75,
-          "ModelScale": 1.5
-        }
-      },
       "IsBagWeightApplicable": true,
       "DungeonDrop": true,
       "ModelKey": null,
@@ -563,26 +256,6 @@
         0.15,
         0.4
       ],
-      "Sizes": {
-        "S": {
-          "WeightKg": 0.042,
-          "ExchangeValueGold": 40,
-          "GoldPerStep": 0.35,
-          "ModelScale": 0.7
-        },
-        "M": {
-          "WeightKg": 0.06,
-          "ExchangeValueGold": 64,
-          "GoldPerStep": 0.4375,
-          "ModelScale": 1
-        },
-        "L": {
-          "WeightKg": 0.09,
-          "ExchangeValueGold": 100,
-          "GoldPerStep": 0.525,
-          "ModelScale": 1.5
-        }
-      },
       "IsBagWeightApplicable": true,
       "DungeonDrop": true,
       "ModelKey": null,
@@ -601,26 +274,6 @@
         0.12,
         0.4
       ],
-      "Sizes": {
-        "S": {
-          "WeightKg": 0.028,
-          "ExchangeValueGold": 20,
-          "GoldPerStep": 0.25,
-          "ModelScale": 0.7
-        },
-        "M": {
-          "WeightKg": 0.04,
-          "ExchangeValueGold": 32,
-          "GoldPerStep": 0.3125,
-          "ModelScale": 1
-        },
-        "L": {
-          "WeightKg": 0.06,
-          "ExchangeValueGold": 50,
-          "GoldPerStep": 0.375,
-          "ModelScale": 1.5
-        }
-      },
       "IsBagWeightApplicable": true,
       "DungeonDrop": true,
       "ModelKey": null,
@@ -639,26 +292,6 @@
         0.65,
         0.4
       ],
-      "Sizes": {
-        "S": {
-          "WeightKg": 0.112,
-          "ExchangeValueGold": 160,
-          "GoldPerStep": 0.75,
-          "ModelScale": 0.7
-        },
-        "M": {
-          "WeightKg": 0.16,
-          "ExchangeValueGold": 256,
-          "GoldPerStep": 0.9375,
-          "ModelScale": 1
-        },
-        "L": {
-          "WeightKg": 0.24,
-          "ExchangeValueGold": 400,
-          "GoldPerStep": 1.125,
-          "ModelScale": 1.5
-        }
-      },
       "IsBagWeightApplicable": true,
       "DungeonDrop": true,
       "ModelKey": null,
@@ -677,26 +310,6 @@
         0.7,
         0.4
       ],
-      "Sizes": {
-        "S": {
-          "WeightKg": 0.098,
-          "ExchangeValueGold": 80,
-          "GoldPerStep": 0.5,
-          "ModelScale": 0.7
-        },
-        "M": {
-          "WeightKg": 0.14,
-          "ExchangeValueGold": 128,
-          "GoldPerStep": 0.625,
-          "ModelScale": 1
-        },
-        "L": {
-          "WeightKg": 0.21,
-          "ExchangeValueGold": 200,
-          "GoldPerStep": 0.75,
-          "ModelScale": 1.5
-        }
-      },
       "IsBagWeightApplicable": true,
       "DungeonDrop": true,
       "ModelKey": null,
@@ -715,26 +328,6 @@
         0.25,
         0.55
       ],
-      "Sizes": {
-        "S": {
-          "WeightKg": 0.126,
-          "ExchangeValueGold": 640,
-          "GoldPerStep": 1.5,
-          "ModelScale": 0.7
-        },
-        "M": {
-          "WeightKg": 0.18,
-          "ExchangeValueGold": 1024,
-          "GoldPerStep": 1.875,
-          "ModelScale": 1
-        },
-        "L": {
-          "WeightKg": 0.27,
-          "ExchangeValueGold": 1600,
-          "GoldPerStep": 2.25,
-          "ModelScale": 1.5
-        }
-      },
       "IsBagWeightApplicable": true,
       "DungeonDrop": true,
       "ModelKey": null,
@@ -753,26 +346,6 @@
         0.12,
         0.35
       ],
-      "Sizes": {
-        "S": {
-          "WeightKg": 0.126,
-          "ExchangeValueGold": 40,
-          "GoldPerStep": 0.35,
-          "ModelScale": 0.7
-        },
-        "M": {
-          "WeightKg": 0.18,
-          "ExchangeValueGold": 64,
-          "GoldPerStep": 0.4375,
-          "ModelScale": 1
-        },
-        "L": {
-          "WeightKg": 0.27,
-          "ExchangeValueGold": 100,
-          "GoldPerStep": 0.525,
-          "ModelScale": 1.5
-        }
-      },
       "IsBagWeightApplicable": true,
       "DungeonDrop": true,
       "ModelKey": null,
@@ -791,26 +364,6 @@
         0.12,
         0.4
       ],
-      "Sizes": {
-        "S": {
-          "WeightKg": 0.14,
-          "ExchangeValueGold": 80,
-          "GoldPerStep": 0.5,
-          "ModelScale": 0.7
-        },
-        "M": {
-          "WeightKg": 0.2,
-          "ExchangeValueGold": 128,
-          "GoldPerStep": 0.625,
-          "ModelScale": 1
-        },
-        "L": {
-          "WeightKg": 0.3,
-          "ExchangeValueGold": 200,
-          "GoldPerStep": 0.75,
-          "ModelScale": 1.5
-        }
-      },
       "IsBagWeightApplicable": true,
       "DungeonDrop": true,
       "ModelKey": null,
@@ -829,26 +382,6 @@
         0.1,
         0.45
       ],
-      "Sizes": {
-        "S": {
-          "WeightKg": 0.049,
-          "ExchangeValueGold": 160,
-          "GoldPerStep": 0.75,
-          "ModelScale": 0.7
-        },
-        "M": {
-          "WeightKg": 0.07,
-          "ExchangeValueGold": 256,
-          "GoldPerStep": 0.9375,
-          "ModelScale": 1
-        },
-        "L": {
-          "WeightKg": 0.105,
-          "ExchangeValueGold": 400,
-          "GoldPerStep": 1.125,
-          "ModelScale": 1.5
-        }
-      },
       "IsBagWeightApplicable": true,
       "DungeonDrop": true,
       "ModelKey": null,
@@ -867,26 +400,6 @@
         0.2,
         0.35
       ],
-      "Sizes": {
-        "S": {
-          "WeightKg": 0.091,
-          "ExchangeValueGold": 320,
-          "GoldPerStep": 1.1,
-          "ModelScale": 0.7
-        },
-        "M": {
-          "WeightKg": 0.13,
-          "ExchangeValueGold": 512,
-          "GoldPerStep": 1.375,
-          "ModelScale": 1
-        },
-        "L": {
-          "WeightKg": 0.195,
-          "ExchangeValueGold": 800,
-          "GoldPerStep": 1.65,
-          "ModelScale": 1.5
-        }
-      },
       "IsBagWeightApplicable": true,
       "DungeonDrop": true,
       "ModelKey": null,
