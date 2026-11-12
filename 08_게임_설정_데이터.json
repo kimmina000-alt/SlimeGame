@@ -492,5 +492,17 @@
     "StartUnix": null,
     "EndUnix": null,
     "KeepOwnedItemsAfterEvent": true
-  }
+  },
+  "DungeonSizeChancePercent": {
+    "S": 72,
+    "M": 23,
+    "L": 5
+  },
+  "BalanceNotes": [
+    "Bag tiers and mining tool costs are initial balance values from the current design notes.",
+    "Dungeon size chance 72/23/5 is an initial implementation default copied from the documented gacha size distribution because dungeon-specific size odds were not separately specified. Keep configurable and report for later tuning.",
+    "Gacha free token storage cap 1 is a V1 default; it prevents offline token hoarding.",
+    "Tier-specific gacha item pools are unspecified; keep the machines disabled while PoolIds are null.",
+    "Rebirth required topping mapping to topping_foam_bead is temporary pending confirmation of the original phrase 'bead topping'."
+  ]
 }
