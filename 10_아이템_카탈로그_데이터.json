@@ -1,0 +1,1182 @@
+{
+  "SchemaVersion": 1,
+  "Description": "Machine-readable counterpart of 02_아이템_카탈로그.md. All AssetId/ModelKey/TextureKey/SoundKey fields are null until actual assets are supplied. Never invent Roblox asset IDs.",
+  "Rules": {
+    "RarityOrder": [
+      "Common",
+      "Uncommon",
+      "Rare",
+      "Epic",
+      "Legendary",
+      "Mythic"
+    ],
+    "SizeOrder": [
+      "S",
+      "M",
+      "L"
+    ],
+    "Size": {
+      "S": {
+        "WeightMultiplier": 0.7,
+        "PriceMultiplier": 1,
+        "IncomeMultiplier": 1,
+        "ModelScale": 0.7
+      },
+      "M": {
+        "WeightMultiplier": 1,
+        "PriceMultiplier": 1.6,
+        "IncomeMultiplier": 1.25,
+        "ModelScale": 1
+      },
+      "L": {
+        "WeightMultiplier": 1.5,
+        "PriceMultiplier": 2.5,
+        "IncomeMultiplier": 1.5,
+        "ModelScale": 1.5
+      }
+    },
+    "RarityPriceMultiplier": {
+      "Common": 1,
+      "Uncommon": 2,
+      "Rare": 4,
+      "Epic": 8,
+      "Legendary": 16,
+      "Mythic": 32
+    },
+    "RarityGoldPerStep": {
+      "Common": 0.25,
+      "Uncommon": 0.35,
+      "Rare": 0.5,
+      "Epic": 0.75,
+      "Legendary": 1.1,
+      "Mythic": 1.5
+    },
+    "BaseExchangePriceGold": 20,
+    "MaxEquippedToppings": 3,
+    "BaseGoldPerStep": 0.4,
+    "MaxGoldPerStepBeforeMultipliers": 8,
+    "DirtyBagOnlyCategory": "Topping"
+  },
+  "Items": [
+    {
+      "Id": "topping_foam_bead",
+      "DisplayName": "폼볼",
+      "Category": "Topping",
+      "Rarity": "Common",
+      "BaseWeightKg": 0.08,
+      "ModelSizeStuds": [
+        0.3,
+        0.3,
+        0.3
+      ],
+      "Sizes": {
+        "S": {
+          "WeightKg": 0.056,
+          "ExchangeValueGold": 20,
+          "GoldPerStep": 0.25,
+          "ModelScale": 0.7
+        },
+        "M": {
+          "WeightKg": 0.08,
+          "ExchangeValueGold": 32,
+          "GoldPerStep": 0.3125,
+          "ModelScale": 1
+        },
+        "L": {
+          "WeightKg": 0.12,
+          "ExchangeValueGold": 50,
+          "GoldPerStep": 0.375,
+          "ModelScale": 1.5
+        }
+      },
+      "IsBagWeightApplicable": true,
+      "DungeonDrop": true,
+      "ModelKey": null,
+      "SoundKey": null,
+      "VfxKey": null,
+      "AssetId": null
+    },
+    {
+      "Id": "topping_mini_foam_bead",
+      "DisplayName": "미니 폼볼",
+      "Category": "Topping",
+      "Rarity": "Uncommon",
+      "BaseWeightKg": 0.06,
+      "ModelSizeStuds": [
+        0.18,
+        0.18,
+        0.18
+      ],
+      "Sizes": {
+        "S": {
+          "WeightKg": 0.042,
+          "ExchangeValueGold": 40,
+          "GoldPerStep": 0.35,
+          "ModelScale": 0.7
+        },
+        "M": {
+          "WeightKg": 0.06,
+          "ExchangeValueGold": 64,
+          "GoldPerStep": 0.4375,
+          "ModelScale": 1
+        },
+        "L": {
+          "WeightKg": 0.09,
+          "ExchangeValueGold": 100,
+          "GoldPerStep": 0.525,
+          "ModelScale": 1.5
+        }
+      },
+      "IsBagWeightApplicable": true,
+      "DungeonDrop": true,
+      "ModelKey": null,
+      "SoundKey": null,
+      "VfxKey": null,
+      "AssetId": null
+    },
+    {
+      "Id": "topping_bingsu_bead",
+      "DisplayName": "빙수 비즈",
+      "Category": "Topping",
+      "Rarity": "Rare",
+      "BaseWeightKg": 0.1,
+      "ModelSizeStuds": [
+        0.35,
+        0.25,
+        0.35
+      ],
+      "Sizes": {
+        "S": {
+          "WeightKg": 0.07,
+          "ExchangeValueGold": 80,
+          "GoldPerStep": 0.5,
+          "ModelScale": 0.7
+        },
+        "M": {
+          "WeightKg": 0.1,
+          "ExchangeValueGold": 128,
+          "GoldPerStep": 0.625,
+          "ModelScale": 1
+        },
+        "L": {
+          "WeightKg": 0.15,
+          "ExchangeValueGold": 200,
+          "GoldPerStep": 0.75,
+          "ModelScale": 1.5
+        }
+      },
+      "IsBagWeightApplicable": true,
+      "DungeonDrop": true,
+      "ModelKey": null,
+      "SoundKey": null,
+      "VfxKey": null,
+      "AssetId": null
+    },
+    {
+      "Id": "topping_fishbowl_bead",
+      "DisplayName": "피쉬볼 비즈",
+      "Category": "Topping",
+      "Rarity": "Uncommon",
+      "BaseWeightKg": 0.14,
+      "ModelSizeStuds": [
+        0.4,
+        0.4,
+        0.4
+      ],
+      "Sizes": {
+        "S": {
+          "WeightKg": 0.098,
+          "ExchangeValueGold": 40,
+          "GoldPerStep": 0.35,
+          "ModelScale": 0.7
+        },
+        "M": {
+          "WeightKg": 0.14,
+          "ExchangeValueGold": 64,
+          "GoldPerStep": 0.4375,
+          "ModelScale": 1
+        },
+        "L": {
+          "WeightKg": 0.21,
+          "ExchangeValueGold": 100,
+          "GoldPerStep": 0.525,
+          "ModelScale": 1.5
+        }
+      },
+      "IsBagWeightApplicable": true,
+      "DungeonDrop": true,
+      "ModelKey": null,
+      "SoundKey": null,
+      "VfxKey": null,
+      "AssetId": null
+    },
+    {
+      "Id": "topping_slushy_bead",
+      "DisplayName": "슬러시 비즈",
+      "Category": "Topping",
+      "Rarity": "Rare",
+      "BaseWeightKg": 0.12,
+      "ModelSizeStuds": [
+        0.32,
+        0.32,
+        0.32
+      ],
+      "Sizes": {
+        "S": {
+          "WeightKg": 0.084,
+          "ExchangeValueGold": 80,
+          "GoldPerStep": 0.5,
+          "ModelScale": 0.7
+        },
+        "M": {
+          "WeightKg": 0.12,
+          "ExchangeValueGold": 128,
+          "GoldPerStep": 0.625,
+          "ModelScale": 1
+        },
+        "L": {
+          "WeightKg": 0.18,
+          "ExchangeValueGold": 200,
+          "GoldPerStep": 0.75,
+          "ModelScale": 1.5
+        }
+      },
+      "IsBagWeightApplicable": true,
+      "DungeonDrop": true,
+      "ModelKey": null,
+      "SoundKey": null,
+      "VfxKey": null,
+      "AssetId": null
+    },
+    {
+      "Id": "topping_sugar_bead",
+      "DisplayName": "슈가 비즈",
+      "Category": "Topping",
+      "Rarity": "Common",
+      "BaseWeightKg": 0.09,
+      "ModelSizeStuds": [
+        0.25,
+        0.18,
+        0.25
+      ],
+      "Sizes": {
+        "S": {
+          "WeightKg": 0.063,
+          "ExchangeValueGold": 20,
+          "GoldPerStep": 0.25,
+          "ModelScale": 0.7
+        },
+        "M": {
+          "WeightKg": 0.09,
+          "ExchangeValueGold": 32,
+          "GoldPerStep": 0.3125,
+          "ModelScale": 1
+        },
+        "L": {
+          "WeightKg": 0.135,
+          "ExchangeValueGold": 50,
+          "GoldPerStep": 0.375,
+          "ModelScale": 1.5
+        }
+      },
+      "IsBagWeightApplicable": true,
+      "DungeonDrop": true,
+      "ModelKey": null,
+      "SoundKey": null,
+      "VfxKey": null,
+      "AssetId": null
+    },
+    {
+      "Id": "topping_jelly_cube",
+      "DisplayName": "젤리 큐브",
+      "Category": "Topping",
+      "Rarity": "Epic",
+      "BaseWeightKg": 0.2,
+      "ModelSizeStuds": [
+        0.45,
+        0.35,
+        0.45
+      ],
+      "Sizes": {
+        "S": {
+          "WeightKg": 0.14,
+          "ExchangeValueGold": 160,
+          "GoldPerStep": 0.75,
+          "ModelScale": 0.7
+        },
+        "M": {
+          "WeightKg": 0.2,
+          "ExchangeValueGold": 256,
+          "GoldPerStep": 0.9375,
+          "ModelScale": 1
+        },
+        "L": {
+          "WeightKg": 0.3,
+          "ExchangeValueGold": 400,
+          "GoldPerStep": 1.125,
+          "ModelScale": 1.5
+        }
+      },
+      "IsBagWeightApplicable": true,
+      "DungeonDrop": true,
+      "ModelKey": null,
+      "SoundKey": null,
+      "VfxKey": null,
+      "AssetId": null
+    },
+    {
+      "Id": "topping_pearl_bead",
+      "DisplayName": "진주 비즈",
+      "Category": "Topping",
+      "Rarity": "Mythic",
+      "BaseWeightKg": 0.11,
+      "ModelSizeStuds": [
+        0.35,
+        0.35,
+        0.35
+      ],
+      "Sizes": {
+        "S": {
+          "WeightKg": 0.077,
+          "ExchangeValueGold": 640,
+          "GoldPerStep": 1.5,
+          "ModelScale": 0.7
+        },
+        "M": {
+          "WeightKg": 0.11,
+          "ExchangeValueGold": 1024,
+          "GoldPerStep": 1.875,
+          "ModelScale": 1
+        },
+        "L": {
+          "WeightKg": 0.165,
+          "ExchangeValueGold": 1600,
+          "GoldPerStep": 2.25,
+          "ModelScale": 1.5
+        }
+      },
+      "IsBagWeightApplicable": true,
+      "DungeonDrop": true,
+      "ModelKey": null,
+      "SoundKey": null,
+      "VfxKey": null,
+      "AssetId": null
+    },
+    {
+      "Id": "topping_fruit_strawberry",
+      "DisplayName": "딸기 슬라이스",
+      "Category": "Topping",
+      "Rarity": "Common",
+      "BaseWeightKg": 0.05,
+      "ModelSizeStuds": [
+        0.45,
+        0.15,
+        0.4
+      ],
+      "Sizes": {
+        "S": {
+          "WeightKg": 0.035,
+          "ExchangeValueGold": 20,
+          "GoldPerStep": 0.25,
+          "ModelScale": 0.7
+        },
+        "M": {
+          "WeightKg": 0.05,
+          "ExchangeValueGold": 32,
+          "GoldPerStep": 0.3125,
+          "ModelScale": 1
+        },
+        "L": {
+          "WeightKg": 0.075,
+          "ExchangeValueGold": 50,
+          "GoldPerStep": 0.375,
+          "ModelScale": 1.5
+        }
+      },
+      "IsBagWeightApplicable": true,
+      "DungeonDrop": true,
+      "ModelKey": null,
+      "SoundKey": null,
+      "VfxKey": null,
+      "AssetId": null
+    },
+    {
+      "Id": "topping_fruit_lemon",
+      "DisplayName": "레몬 슬라이스",
+      "Category": "Topping",
+      "Rarity": "Common",
+      "BaseWeightKg": 0.05,
+      "ModelSizeStuds": [
+        0.45,
+        0.12,
+        0.45
+      ],
+      "Sizes": {
+        "S": {
+          "WeightKg": 0.035,
+          "ExchangeValueGold": 20,
+          "GoldPerStep": 0.25,
+          "ModelScale": 0.7
+        },
+        "M": {
+          "WeightKg": 0.05,
+          "ExchangeValueGold": 32,
+          "GoldPerStep": 0.3125,
+          "ModelScale": 1
+        },
+        "L": {
+          "WeightKg": 0.075,
+          "ExchangeValueGold": 50,
+          "GoldPerStep": 0.375,
+          "ModelScale": 1.5
+        }
+      },
+      "IsBagWeightApplicable": true,
+      "DungeonDrop": true,
+      "ModelKey": null,
+      "SoundKey": null,
+      "VfxKey": null,
+      "AssetId": null
+    },
+    {
+      "Id": "topping_fruit_watermelon",
+      "DisplayName": "수박 슬라이스",
+      "Category": "Topping",
+      "Rarity": "Uncommon",
+      "BaseWeightKg": 0.08,
+      "ModelSizeStuds": [
+        0.55,
+        0.18,
+        0.35
+      ],
+      "Sizes": {
+        "S": {
+          "WeightKg": 0.056,
+          "ExchangeValueGold": 40,
+          "GoldPerStep": 0.35,
+          "ModelScale": 0.7
+        },
+        "M": {
+          "WeightKg": 0.08,
+          "ExchangeValueGold": 64,
+          "GoldPerStep": 0.4375,
+          "ModelScale": 1
+        },
+        "L": {
+          "WeightKg": 0.12,
+          "ExchangeValueGold": 100,
+          "GoldPerStep": 0.525,
+          "ModelScale": 1.5
+        }
+      },
+      "IsBagWeightApplicable": true,
+      "DungeonDrop": true,
+      "ModelKey": null,
+      "SoundKey": null,
+      "VfxKey": null,
+      "AssetId": null
+    },
+    {
+      "Id": "topping_flower_daisy",
+      "DisplayName": "데이지",
+      "Category": "Topping",
+      "Rarity": "Common",
+      "BaseWeightKg": 0.04,
+      "ModelSizeStuds": [
+        0.55,
+        0.12,
+        0.55
+      ],
+      "Sizes": {
+        "S": {
+          "WeightKg": 0.028,
+          "ExchangeValueGold": 20,
+          "GoldPerStep": 0.25,
+          "ModelScale": 0.7
+        },
+        "M": {
+          "WeightKg": 0.04,
+          "ExchangeValueGold": 32,
+          "GoldPerStep": 0.3125,
+          "ModelScale": 1
+        },
+        "L": {
+          "WeightKg": 0.06,
+          "ExchangeValueGold": 50,
+          "GoldPerStep": 0.375,
+          "ModelScale": 1.5
+        }
+      },
+      "IsBagWeightApplicable": true,
+      "DungeonDrop": true,
+      "ModelKey": null,
+      "SoundKey": null,
+      "VfxKey": null,
+      "AssetId": null
+    },
+    {
+      "Id": "topping_flower_rose",
+      "DisplayName": "장미",
+      "Category": "Topping",
+      "Rarity": "Rare",
+      "BaseWeightKg": 0.06,
+      "ModelSizeStuds": [
+        0.45,
+        0.25,
+        0.45
+      ],
+      "Sizes": {
+        "S": {
+          "WeightKg": 0.042,
+          "ExchangeValueGold": 80,
+          "GoldPerStep": 0.5,
+          "ModelScale": 0.7
+        },
+        "M": {
+          "WeightKg": 0.06,
+          "ExchangeValueGold": 128,
+          "GoldPerStep": 0.625,
+          "ModelScale": 1
+        },
+        "L": {
+          "WeightKg": 0.09,
+          "ExchangeValueGold": 200,
+          "GoldPerStep": 0.75,
+          "ModelScale": 1.5
+        }
+      },
+      "IsBagWeightApplicable": true,
+      "DungeonDrop": true,
+      "ModelKey": null,
+      "SoundKey": null,
+      "VfxKey": null,
+      "AssetId": null
+    },
+    {
+      "Id": "topping_heart_clay",
+      "DisplayName": "하트 클레이",
+      "Category": "Topping",
+      "Rarity": "Uncommon",
+      "BaseWeightKg": 0.06,
+      "ModelSizeStuds": [
+        0.4,
+        0.15,
+        0.4
+      ],
+      "Sizes": {
+        "S": {
+          "WeightKg": 0.042,
+          "ExchangeValueGold": 40,
+          "GoldPerStep": 0.35,
+          "ModelScale": 0.7
+        },
+        "M": {
+          "WeightKg": 0.06,
+          "ExchangeValueGold": 64,
+          "GoldPerStep": 0.4375,
+          "ModelScale": 1
+        },
+        "L": {
+          "WeightKg": 0.09,
+          "ExchangeValueGold": 100,
+          "GoldPerStep": 0.525,
+          "ModelScale": 1.5
+        }
+      },
+      "IsBagWeightApplicable": true,
+      "DungeonDrop": true,
+      "ModelKey": null,
+      "SoundKey": null,
+      "VfxKey": null,
+      "AssetId": null
+    },
+    {
+      "Id": "topping_star_clay",
+      "DisplayName": "별 클레이",
+      "Category": "Topping",
+      "Rarity": "Common",
+      "BaseWeightKg": 0.04,
+      "ModelSizeStuds": [
+        0.4,
+        0.12,
+        0.4
+      ],
+      "Sizes": {
+        "S": {
+          "WeightKg": 0.028,
+          "ExchangeValueGold": 20,
+          "GoldPerStep": 0.25,
+          "ModelScale": 0.7
+        },
+        "M": {
+          "WeightKg": 0.04,
+          "ExchangeValueGold": 32,
+          "GoldPerStep": 0.3125,
+          "ModelScale": 1
+        },
+        "L": {
+          "WeightKg": 0.06,
+          "ExchangeValueGold": 50,
+          "GoldPerStep": 0.375,
+          "ModelScale": 1.5
+        }
+      },
+      "IsBagWeightApplicable": true,
+      "DungeonDrop": true,
+      "ModelKey": null,
+      "SoundKey": null,
+      "VfxKey": null,
+      "AssetId": null
+    },
+    {
+      "Id": "topping_charm_bear",
+      "DisplayName": "곰 참",
+      "Category": "Topping",
+      "Rarity": "Epic",
+      "BaseWeightKg": 0.16,
+      "ModelSizeStuds": [
+        0.55,
+        0.65,
+        0.4
+      ],
+      "Sizes": {
+        "S": {
+          "WeightKg": 0.112,
+          "ExchangeValueGold": 160,
+          "GoldPerStep": 0.75,
+          "ModelScale": 0.7
+        },
+        "M": {
+          "WeightKg": 0.16,
+          "ExchangeValueGold": 256,
+          "GoldPerStep": 0.9375,
+          "ModelScale": 1
+        },
+        "L": {
+          "WeightKg": 0.24,
+          "ExchangeValueGold": 400,
+          "GoldPerStep": 1.125,
+          "ModelScale": 1.5
+        }
+      },
+      "IsBagWeightApplicable": true,
+      "DungeonDrop": true,
+      "ModelKey": null,
+      "SoundKey": null,
+      "VfxKey": null,
+      "AssetId": null
+    },
+    {
+      "Id": "topping_charm_rabbit",
+      "DisplayName": "토끼 참",
+      "Category": "Topping",
+      "Rarity": "Rare",
+      "BaseWeightKg": 0.14,
+      "ModelSizeStuds": [
+        0.5,
+        0.7,
+        0.4
+      ],
+      "Sizes": {
+        "S": {
+          "WeightKg": 0.098,
+          "ExchangeValueGold": 80,
+          "GoldPerStep": 0.5,
+          "ModelScale": 0.7
+        },
+        "M": {
+          "WeightKg": 0.14,
+          "ExchangeValueGold": 128,
+          "GoldPerStep": 0.625,
+          "ModelScale": 1
+        },
+        "L": {
+          "WeightKg": 0.21,
+          "ExchangeValueGold": 200,
+          "GoldPerStep": 0.75,
+          "ModelScale": 1.5
+        }
+      },
+      "IsBagWeightApplicable": true,
+      "DungeonDrop": true,
+      "ModelKey": null,
+      "SoundKey": null,
+      "VfxKey": null,
+      "AssetId": null
+    },
+    {
+      "Id": "topping_charm_donut",
+      "DisplayName": "도넛 참",
+      "Category": "Topping",
+      "Rarity": "Mythic",
+      "BaseWeightKg": 0.18,
+      "ModelSizeStuds": [
+        0.55,
+        0.25,
+        0.55
+      ],
+      "Sizes": {
+        "S": {
+          "WeightKg": 0.126,
+          "ExchangeValueGold": 640,
+          "GoldPerStep": 1.5,
+          "ModelScale": 0.7
+        },
+        "M": {
+          "WeightKg": 0.18,
+          "ExchangeValueGold": 1024,
+          "GoldPerStep": 1.875,
+          "ModelScale": 1
+        },
+        "L": {
+          "WeightKg": 0.27,
+          "ExchangeValueGold": 1600,
+          "GoldPerStep": 2.25,
+          "ModelScale": 1.5
+        }
+      },
+      "IsBagWeightApplicable": true,
+      "DungeonDrop": true,
+      "ModelKey": null,
+      "SoundKey": null,
+      "VfxKey": null,
+      "AssetId": null
+    },
+    {
+      "Id": "topping_fine_sand",
+      "DisplayName": "고운 모래",
+      "Category": "Topping",
+      "Rarity": "Uncommon",
+      "BaseWeightKg": 0.18,
+      "ModelSizeStuds": [
+        0.45,
+        0.12,
+        0.35
+      ],
+      "Sizes": {
+        "S": {
+          "WeightKg": 0.126,
+          "ExchangeValueGold": 40,
+          "GoldPerStep": 0.35,
+          "ModelScale": 0.7
+        },
+        "M": {
+          "WeightKg": 0.18,
+          "ExchangeValueGold": 64,
+          "GoldPerStep": 0.4375,
+          "ModelScale": 1
+        },
+        "L": {
+          "WeightKg": 0.27,
+          "ExchangeValueGold": 100,
+          "GoldPerStep": 0.525,
+          "ModelScale": 1.5
+        }
+      },
+      "IsBagWeightApplicable": true,
+      "DungeonDrop": true,
+      "ModelKey": null,
+      "SoundKey": null,
+      "VfxKey": null,
+      "AssetId": null
+    },
+    {
+      "Id": "topping_colored_sand",
+      "DisplayName": "컬러 샌드",
+      "Category": "Topping",
+      "Rarity": "Rare",
+      "BaseWeightKg": 0.2,
+      "ModelSizeStuds": [
+        0.5,
+        0.12,
+        0.4
+      ],
+      "Sizes": {
+        "S": {
+          "WeightKg": 0.14,
+          "ExchangeValueGold": 80,
+          "GoldPerStep": 0.5,
+          "ModelScale": 0.7
+        },
+        "M": {
+          "WeightKg": 0.2,
+          "ExchangeValueGold": 128,
+          "GoldPerStep": 0.625,
+          "ModelScale": 1
+        },
+        "L": {
+          "WeightKg": 0.3,
+          "ExchangeValueGold": 200,
+          "GoldPerStep": 0.75,
+          "ModelScale": 1.5
+        }
+      },
+      "IsBagWeightApplicable": true,
+      "DungeonDrop": true,
+      "ModelKey": null,
+      "SoundKey": null,
+      "VfxKey": null,
+      "AssetId": null
+    },
+    {
+      "Id": "topping_snowflake",
+      "DisplayName": "눈꽃 조각",
+      "Category": "Topping",
+      "Rarity": "Epic",
+      "BaseWeightKg": 0.07,
+      "ModelSizeStuds": [
+        0.45,
+        0.1,
+        0.45
+      ],
+      "Sizes": {
+        "S": {
+          "WeightKg": 0.049,
+          "ExchangeValueGold": 160,
+          "GoldPerStep": 0.75,
+          "ModelScale": 0.7
+        },
+        "M": {
+          "WeightKg": 0.07,
+          "ExchangeValueGold": 256,
+          "GoldPerStep": 0.9375,
+          "ModelScale": 1
+        },
+        "L": {
+          "WeightKg": 0.105,
+          "ExchangeValueGold": 400,
+          "GoldPerStep": 1.125,
+          "ModelScale": 1.5
+        }
+      },
+      "IsBagWeightApplicable": true,
+      "DungeonDrop": true,
+      "ModelKey": null,
+      "SoundKey": null,
+      "VfxKey": null,
+      "AssetId": null
+    },
+    {
+      "Id": "topping_wax_flake",
+      "DisplayName": "왁스 조각",
+      "Category": "Topping",
+      "Rarity": "Legendary",
+      "BaseWeightKg": 0.13,
+      "ModelSizeStuds": [
+        0.4,
+        0.2,
+        0.35
+      ],
+      "Sizes": {
+        "S": {
+          "WeightKg": 0.091,
+          "ExchangeValueGold": 320,
+          "GoldPerStep": 1.1,
+          "ModelScale": 0.7
+        },
+        "M": {
+          "WeightKg": 0.13,
+          "ExchangeValueGold": 512,
+          "GoldPerStep": 1.375,
+          "ModelScale": 1
+        },
+        "L": {
+          "WeightKg": 0.195,
+          "ExchangeValueGold": 800,
+          "GoldPerStep": 1.65,
+          "ModelScale": 1.5
+        }
+      },
+      "IsBagWeightApplicable": true,
+      "DungeonDrop": true,
+      "ModelKey": null,
+      "SoundKey": null,
+      "VfxKey": null,
+      "AssetId": null
+    },
+    {
+      "Id": "effect_fine_glitter",
+      "DisplayName": "파인 글리터",
+      "Category": "SurfaceEffect",
+      "Rarity": "Common",
+      "BaseWeightKg": null,
+      "ModelSizeStuds": null,
+      "Sizes": null,
+      "ExchangeValueGold": 32,
+      "GoldPerStep": 0,
+      "IsBagWeightApplicable": false,
+      "DungeonDrop": false,
+      "Acquisition": [
+        "MaterialShelf",
+        "Crafting",
+        "Gacha"
+      ],
+      "ModelKey": null,
+      "SoundKey": null,
+      "VfxKey": null,
+      "AssetId": null
+    },
+    {
+      "Id": "effect_chunky_glitter",
+      "DisplayName": "청키 글리터",
+      "Category": "SurfaceEffect",
+      "Rarity": "Uncommon",
+      "BaseWeightKg": null,
+      "ModelSizeStuds": null,
+      "Sizes": null,
+      "ExchangeValueGold": 64,
+      "GoldPerStep": 0,
+      "IsBagWeightApplicable": false,
+      "DungeonDrop": false,
+      "Acquisition": [
+        "MaterialShelf",
+        "Crafting",
+        "Gacha"
+      ],
+      "ModelKey": null,
+      "SoundKey": null,
+      "VfxKey": null,
+      "AssetId": null
+    },
+    {
+      "Id": "effect_holographic",
+      "DisplayName": "홀로그램 플레이크",
+      "Category": "SurfaceEffect",
+      "Rarity": "Rare",
+      "BaseWeightKg": null,
+      "ModelSizeStuds": null,
+      "Sizes": null,
+      "ExchangeValueGold": 128,
+      "GoldPerStep": 0,
+      "IsBagWeightApplicable": false,
+      "DungeonDrop": false,
+      "Acquisition": [
+        "MaterialShelf",
+        "Crafting",
+        "Gacha"
+      ],
+      "ModelKey": null,
+      "SoundKey": null,
+      "VfxKey": null,
+      "AssetId": null
+    },
+    {
+      "Id": "effect_pearl_powder",
+      "DisplayName": "펄 파우더",
+      "Category": "SurfaceEffect",
+      "Rarity": "Epic",
+      "BaseWeightKg": null,
+      "ModelSizeStuds": null,
+      "Sizes": null,
+      "ExchangeValueGold": 256,
+      "GoldPerStep": 0,
+      "IsBagWeightApplicable": false,
+      "DungeonDrop": false,
+      "Acquisition": [
+        "MaterialShelf",
+        "Crafting",
+        "Gacha"
+      ],
+      "ModelKey": null,
+      "SoundKey": null,
+      "VfxKey": null,
+      "AssetId": null
+    },
+    {
+      "Id": "effect_opal_flake",
+      "DisplayName": "오팔 플레이크",
+      "Category": "SurfaceEffect",
+      "Rarity": "Legendary",
+      "BaseWeightKg": null,
+      "ModelSizeStuds": null,
+      "Sizes": null,
+      "ExchangeValueGold": 512,
+      "GoldPerStep": 0,
+      "IsBagWeightApplicable": false,
+      "DungeonDrop": false,
+      "Acquisition": [
+        "MaterialShelf",
+        "Crafting",
+        "Gacha"
+      ],
+      "ModelKey": null,
+      "SoundKey": null,
+      "VfxKey": null,
+      "AssetId": null
+    },
+    {
+      "Id": "base_clear",
+      "DisplayName": "클리어",
+      "Category": "Base",
+      "Rarity": null,
+      "RarityMapping": null,
+      "BaseWeightKg": null,
+      "ModelSizeStuds": [
+        0.65,
+        0.85,
+        0.65
+      ],
+      "Sizes": null,
+      "GoldPerStep": 0.4,
+      "IsBagWeightApplicable": false,
+      "DungeonDrop": false,
+      "PumpAmountLiters": 5,
+      "ModelKey": null,
+      "TextureKey": null,
+      "SoundKey": null,
+      "VfxKey": null,
+      "AssetId": null,
+      "Physics": {
+        "Firmness": 0.45,
+        "Elasticity": 0.92,
+        "Viscosity": 0.6
+      },
+      "Description": "투명, 기포와 늘어남이 잘 보임"
+    },
+    {
+      "Id": "base_glue_all",
+      "DisplayName": "글루올",
+      "Category": "Base",
+      "Rarity": null,
+      "RarityMapping": null,
+      "BaseWeightKg": null,
+      "ModelSizeStuds": [
+        0.65,
+        0.85,
+        0.65
+      ],
+      "Sizes": null,
+      "GoldPerStep": 0.4,
+      "IsBagWeightApplicable": false,
+      "DungeonDrop": false,
+      "PumpAmountLiters": 5,
+      "ModelKey": null,
+      "TextureKey": null,
+      "SoundKey": null,
+      "VfxKey": null,
+      "AssetId": null,
+      "Physics": {
+        "Firmness": 0.7,
+        "Elasticity": 0.95,
+        "Viscosity": 1.35
+      },
+      "Description": "윤기와 점성이 높고 천천히 늘어남"
+    },
+    {
+      "Id": "base_butter",
+      "DisplayName": "버터",
+      "Category": "Base",
+      "Rarity": null,
+      "RarityMapping": null,
+      "BaseWeightKg": null,
+      "ModelSizeStuds": [
+        0.65,
+        0.85,
+        0.65
+      ],
+      "Sizes": null,
+      "GoldPerStep": 0.4,
+      "IsBagWeightApplicable": false,
+      "DungeonDrop": false,
+      "PumpAmountLiters": 5,
+      "ModelKey": null,
+      "TextureKey": null,
+      "SoundKey": null,
+      "VfxKey": null,
+      "AssetId": null,
+      "Physics": {
+        "Firmness": 0.65,
+        "Elasticity": 0.55,
+        "Viscosity": 1.15
+      },
+      "Description": "불투명하고 부드러우며 형태 유지"
+    },
+    {
+      "Id": "base_clay",
+      "DisplayName": "클레이",
+      "Category": "Base",
+      "Rarity": null,
+      "RarityMapping": null,
+      "BaseWeightKg": null,
+      "ModelSizeStuds": [
+        0.65,
+        0.85,
+        0.65
+      ],
+      "Sizes": null,
+      "GoldPerStep": 0.4,
+      "IsBagWeightApplicable": false,
+      "DungeonDrop": false,
+      "PumpAmountLiters": 5,
+      "ModelKey": null,
+      "TextureKey": null,
+      "SoundKey": null,
+      "VfxKey": null,
+      "AssetId": null,
+      "Physics": {
+        "Firmness": 0.9,
+        "Elasticity": 0.4,
+        "Viscosity": 1.2
+      },
+      "Description": "밀도 높고 단단하며 형태 유지"
+    },
+    {
+      "Id": "base_whipped",
+      "DisplayName": "왁뿌",
+      "Category": "Base",
+      "Rarity": null,
+      "RarityMapping": null,
+      "BaseWeightKg": null,
+      "ModelSizeStuds": [
+        0.65,
+        0.85,
+        0.65
+      ],
+      "Sizes": null,
+      "GoldPerStep": 0.4,
+      "IsBagWeightApplicable": false,
+      "DungeonDrop": false,
+      "PumpAmountLiters": 5,
+      "ModelKey": null,
+      "TextureKey": null,
+      "SoundKey": null,
+      "VfxKey": null,
+      "AssetId": null,
+      "Physics": {
+        "Firmness": 0.35,
+        "Elasticity": 0.7,
+        "Viscosity": 0.75
+      },
+      "Description": "폭신하고 가볍고 빠르게 복원"
+    },
+    {
+      "Id": "base_foam_bead",
+      "DisplayName": "폼/비즈",
+      "Category": "Base",
+      "Rarity": null,
+      "RarityMapping": null,
+      "BaseWeightKg": null,
+      "ModelSizeStuds": [
+        0.65,
+        0.85,
+        0.65
+      ],
+      "Sizes": null,
+      "GoldPerStep": 0.4,
+      "IsBagWeightApplicable": false,
+      "DungeonDrop": false,
+      "PumpAmountLiters": 5,
+      "ModelKey": null,
+      "TextureKey": null,
+      "SoundKey": null,
+      "VfxKey": null,
+      "AssetId": null,
+      "Physics": {
+        "Firmness": null,
+        "Elasticity": null,
+        "Viscosity": null
+      },
+      "Description": "알갱이가 많고 바스락거리는 질감"
+    }
+  ]
+}
